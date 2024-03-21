@@ -17,6 +17,8 @@ def main():
         print("D")
     else: 
         print("F")
+    
+    return
 
 
 if __name__ == '__main__':

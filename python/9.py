@@ -5,10 +5,15 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    n = int(input(""))
-
-    total_sum = sum(range(1, n+1))
-    print("1부터 {}까지의 합: {}".format(n, total_sum))
+    total = 0 
+    while total == 0:
+        score = int(input())
+        if score > 0:
+            for s in range (0,(score+1)):
+                total = total + s 
+            print(total)
+        else:
+            print("X")
 
     return
 

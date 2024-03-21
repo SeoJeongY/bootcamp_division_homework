@@ -8,11 +8,11 @@ def main():
         number = input()
         if len(number) == 3 and number.isdigit():
             reversed_number = number[::-1]
-            print("입력한 숫자의 역순은:", reversed_number)
+            print(reversed_number)
         else:
-            print("세 자리 정수")
+            print()
     except ValueError:
-        print("정수를 입력")
+        print()
 
 
 if __name__ == '__main__':
