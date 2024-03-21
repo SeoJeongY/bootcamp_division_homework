@@ -4,9 +4,15 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
-    return
+    try:
+        number = input("세 자리 정수 입력: ")
+        if len(number) == 3 and number.isdigit():
+            reversed_number = number[::-1]
+            print("입력한 숫자의 역순은:", reversed_number)
+        else:
+            print("세 자리 정수")
+    except ValueError:
+        print("정수를 입력")
 
 
 if __name__ == '__main__':

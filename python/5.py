@@ -5,6 +5,15 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    age = int(input("나이: "))
+    legth = float(input("키 (단위: cm): "))
+    if age >= 14 or legth >= 160:
+        print("X")
+    else:
+        print("O")
+
+
+
 
     return
 
