@@ -5,7 +5,7 @@
 
 def main():
     try:
-        number = input("세 자리 정수 입력: ")
+        number = input()
         if len(number) == 3 and number.isdigit():
             reversed_number = number[::-1]
             print("입력한 숫자의 역순은:", reversed_number)

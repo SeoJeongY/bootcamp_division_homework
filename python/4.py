@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    score = int(input("점수를 입력하세요: "))
+    score = int(input())
 
     if score >= 90:
         print ("A")

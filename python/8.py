@@ -5,7 +5,7 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    n = int(input("정수 n 입력: "))
+    n = int(input())
     total_sum = calculate_sum(n)
     factorial = calculate_factorial(n)
     print("1부터 {}까지의 정수의 합: {}".format(n, total_sum))

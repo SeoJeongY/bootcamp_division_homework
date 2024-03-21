@@ -5,14 +5,20 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-    month = int(input("월(1부터 12까지의 정수): "))
-
+    year = int(input())
+    month = int(input())
     if month == 2:
-        print("해당하는 달의 날 수는 28일 또는 29일")
+        if year % 4 == 0 and year % 400 == 0 :
+            print(29)
+        elif year % 4 == 0 and year % 100 != 0 :
+            print(29)
+        else:
+            print(28)
+
     elif month in [4,6,9,11]:
-        print("해당하는 달의 날 수는 30일")
+        print("30")
     else:
-        print("해당하는 달의 날 수는 31일")
+        print("31")
 
 
     return
